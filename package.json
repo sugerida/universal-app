@@ -2,7 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "login": "expo login -u $EXPO_USERNAME -p $EXPO_PASSWORD --non-interactive",
-    "build": "expo build:web",
+    "build": "expo build:web --no-pwa",
     "publish": "expo publish --non-interactive",
     "start": "expo start",
     "android": "expo start --android",
